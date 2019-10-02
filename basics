@@ -1,0 +1,41 @@
+loops in python
+
+
+Python programming language provides following types of loops to handle looping requirements. 
+Python provides three ways for executing the loops. While all the ways provide similar basic functionality, 
+they differ in their syntax and condition checking time.
+
+1)While Loop:
+
+In python, while loop is used to execute a block of statements repeatedly until a given a condition is satisfied. 
+And when the condition becomes false, the line immediately after the loop in program is executed.
+
+
+Syntax :
+while expression:
+    statement(s)
+
+All the statements indented by the same number of character spaces after a programming construct are considered 
+to be part of a single block of code. Python uses indentation as its method of grouping statements.
+
+2)  for in Loop: 
+For loops are used for sequential traversal. For example: traversing a list or string or array etc. 
+In Python, there is no C style for loop, i.e., for (i=0; i<n; i++). There is “for in” loop which is similar to for 
+each loop in other languages. Let us learn how to use for in loop for sequential traversals.
+
+Syntax:
+
+for iterator_var in sequence:
+    statements(s)
+    
+3)  Iterating by index of sequences: 
+We can also use the index of elements in the sequence to iterate. The key idea is to first calculate the length of the 
+list and in iterate over the sequence within the range of this length.
+
+
+4)Loop Control Statements: Loop control statements change execution from its normal sequence. When execution leaves a scope, 
+all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
+          *continue
+          *break
+          *return
+          *pass
